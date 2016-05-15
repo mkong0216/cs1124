@@ -50,6 +50,8 @@ int main() {
         cout << Line << endl;
     }
     
+    text.close();
+    
 }
 
 char decryptLetter(char& encryptLetter, const int& Key) {
