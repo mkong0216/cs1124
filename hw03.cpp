@@ -124,4 +124,5 @@ int main() {
             else { cout << "Warrior does not exist\n"; }
         }
     }
+    gameScript.close();
 }
